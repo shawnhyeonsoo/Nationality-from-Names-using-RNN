@@ -16,6 +16,7 @@ Language Processing theories.
 </br>
 </br>
 The training data was prepared beforehand, and is implemented so that the program locally finds the data to train itself.
+The data is in the Project folder, and it must be unzipped in the same folder as the code for the program.
 The code is based on character-level Recurrent Neural Network: </br>
 It transforms the data given in numerous .txt files into tensor format and operates calculations in order to train from
 the data.
@@ -40,4 +41,5 @@ most probable nationality of the name.
 프로그램을 위한 학습 데이터는 사전에 준비되어 있었으며, 프로그램은 해당 데이터를 로컬 디렉토리에서 찾아 올바른 형태로 변환시킨 후, 연산을 진행하는 과정으로
 설계되었다. 학습 데이터는 .txt 확장자로 되어있으며, 커맨드창에 입력될 입력값에 대한 프로그램의 출력은 해당 이름에 대해 올바른 국적일 확률이 가장 높은 3개(수정 가능)
 의 나라이다. </br>
+데이터는 data.zip으로 project 폴더 안에 첨부되었는데, 이를 프로그램 코드와 같은 폴더에 압축해제 해야만 프로그램이 정확하게 찾을 수 있다.
 전체적으로 문자 단위 RNN을 바탕으로 짜여졌으며, pytorch를 주로 이용해 설계되었다. 
