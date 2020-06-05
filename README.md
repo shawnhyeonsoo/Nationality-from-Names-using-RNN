@@ -43,3 +43,6 @@ most probable nationality of the name.
 의 나라이다. </br>
 데이터는 data.zip으로 project 폴더 안에 첨부되었는데, 이를 프로그램 코드와 같은 폴더에 압축해제 해야만 프로그램이 정확하게 찾을 수 있다.
 전체적으로 문자 단위 RNN을 바탕으로 짜여졌으며, pytorch를 주로 이용해 설계되었다. 
+</br>
+</br>
+자료 및 데이터는 (https://tutorials.pytorch.kr/intermediate/char_rnn_classification_tutorial.html)를 참고했습니다.
